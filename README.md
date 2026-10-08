@@ -1,65 +1,90 @@
 # Hi, I'm Divan 👋
 
-I'm a Cybersecurity student at the University of the District of Columbia with an interest in network security, operational technology (OT) security, and security engineering.
+I'm a Cybersecurity student at the University of the District of Columbia with a 4.0 GPA and an interest in network security, operational technology (OT) security, and security engineering.
 
-I'm currently building hands-on cybersecurity experience through Hack The Box, virtual labs, Python security projects, and my senior capstone project focused on security monitoring and detection for Operational Technology and PLC environments.
+I'm building practical experience through Python projects, Hack The Box, virtual labs, and my senior capstone exploring security monitoring and detection for legacy PLC environments.
 
-## 🔐 Cybersecurity Projects
+## 🔐 Featured Projects
 
-This portfolio is currently under development as I build and document new projects.
+### 🐍 Python TCP Port Scanner
 
-### 🏭 OT / PLC Security Lab
-Building a virtual Operational Technology environment to explore PLC security, industrial protocols, network monitoring, and attack detection.
+Built a Python tool that checks selected TCP ports on localhost using the socket library.
 
-**Technologies:** OpenPLC, Modbus/TCP, Kali Linux, Wireshark, VirtualBox
+**Features and testing:**
+- Command-line port selection with argparse
+- Port-number validation
+- Connection timeouts and error handling
+- Tested with a local HTTP server running and stopped
+- Compared results with an Nmap TCP connect scan
+- Documented setup, test output, and limitations
 
-🚧 In Progress
+**Tools:** Python, sockets, argparse, Kali Linux, Nmap
 
-### 🐍 Python Security Tools
-Developing Python-based cybersecurity tools to strengthen my understanding of networking, detection, automation, and security engineering.
+✅ Initial version completed
 
-🚧 In Progress
+[View the project →](https://github.com/Voooges/python-port-scanner)
 
-### 🧪 Cybersecurity Labs
-Building practical offensive and defensive security experience through Hack The Box and personal lab environments.
+### 🏭 OT / PLC Security Capstone
+
+Researching how endpoint detection and response concepts can apply to operational technology and legacy programmable logic controllers.
+
+Our team is comparing traditional EDR capabilities with existing OT security solutions, identifying detection gaps, and developing requirements for a proposed monitoring approach.
 
 **Current focus:**
-- Network enumeration
-- Linux
-- Vulnerability analysis
-- Privilege escalation
-- Network traffic analysis
+- Limitations of installing endpoint agents on legacy PLCs
+- Passive network monitoring and industrial protocol visibility
+- Detection requirements that account for safety and availability
+- Planning a virtual PLC testbed and prototype
 
-## 🛠️ Technologies & Tools
+🚧 Research and design in progress
 
-- Python
-- Linux
-- Kali Linux
-- Wireshark
-- Nmap
-- VirtualBox
-- Git / GitHub
-- OpenPLC
-- Modbus/TCP
+### 🧪 Hack The Box and Virtual Labs
+
+Configured a Kali Linux virtual machine in VirtualBox and completed the Hack The Box Meow lab in an authorized training environment.
+
+**Practiced:**
+- Linux command-line use
+- Network service enumeration with Nmap
+- Identifying insecure Telnet access
+- Understanding the risks of weak authentication
+
+🚧 Continuing lab practice
+
+### 📝 Cybersecurity Research
+
+Authored a literature-based research paper examining risk management frameworks, firewalls, and intrusion detection as parts of a layered security approach.
+
+Presented the findings at UDC Research Week, developing my research writing and technical communication skills.
+
+## 🛠️ Skills and Tools
+
+- **Programming:** Python, Java, SQL, JavaScript
+- **Systems and labs:** Linux, Kali Linux, VirtualBox
+- **Security tools:** Nmap, Wireshark
+- **Databases:** MySQL, Microsoft SQL Server
+- **Project documentation:** GitHub, research writing, technical presentations
 
 ## 🎓 Education
 
 **B.S. Cybersecurity**  
-University of the District of Columbia
+University of the District of Columbia  
+**Expected graduation:** December 2027
 
-- 4.0 GPA
-- Dean's List / Highest Honors
-- Top Student recognition throughout my undergraduate studies
+- 4.0 cumulative GPA
+- Dean's List and Highest Honors every semester
+- Top Freshman, Top Sophomore, and Top Junior recognition
 
 ## 📚 Currently Learning
 
-- CompTIA Security+ (SY0-701)
-- Penetration Testing
-- Python for Cybersecurity
-- OT / ICS Security
-- Detection Engineering
-- Network Security
+- CompTIA Security+ (SY0-701) — exam preparation in progress
+- Python for cybersecurity
+- Penetration testing fundamentals
+- OT / ICS security
+- Security monitoring and detection
+- Industrial protocols, including Modbus/TCP
+- Virtual PLC platforms, including OpenPLC
 
 ## 📫 Connect With Me
 
-LinkedIn: linkedin.com/in/divanv
+[LinkedIn](https://www.linkedin.com/in/divanv)  
+[GitHub Projects](https://github.com/Voooges?tab=repositories)
