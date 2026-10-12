@@ -1,39 +1,49 @@
-# Hi, I'm Divan 👋
+# Divan Voges
+### Cybersecurity Student | Python Projects | Network and OT Security
 
-I'm a Cybersecurity student at the University of the District of Columbia with a 4.0 GPA and an interest in network security, operational technology (OT) security, and security engineering.
+I am pursuing a B.S. in Cybersecurity at the University of the District of Columbia, maintaining a 4.0 GPA with an expected graduation date of December 2027.
 
-I'm building practical experience through Python projects, Hack The Box, virtual labs, and my senior capstone exploring security monitoring and detection for legacy PLC environments.
+My experience combines technical support, database development, academic research, and practical security projects. I am interested in security engineering, network defense, and operational technology security, and I am seeking cybersecurity and IT internships.
 
-## 🔐 Featured Projects
+[LinkedIn](https://www.linkedin.com/in/divanv) · [Project Repositories](https://github.com/Voooges?tab=repositories)
 
-| Project | Work and Experience | Status |
-|---|---|---|
-| [Python TCP Port Scanner](https://github.com/Voooges/python-port-scanner) | Built a localhost TCP scanner with command-line port selection, input validation, timeouts, and error handling. Tested with a local HTTP server and compared results with Nmap. | ✅ Initial version completed |
-| OT / PLC Security Capstone | Comparing traditional EDR capabilities with existing OT security solutions, identifying detection gaps, and developing monitoring requirements for legacy PLCs. | 🚧 Research and design |
-| Hack The Box and Virtual Labs | Configured Kali Linux in VirtualBox and completed the Meow lab, practicing Nmap enumeration and identifying insecure Telnet access. | 🚧 Continuing lab practice |
-| Cybersecurity Research | Authored a literature-based paper on risk management frameworks, firewalls, and intrusion detection. Presented findings at UDC Research Week. | ✅ Paper and presentation completed |
+## Featured Projects
 
-### 🏭 OT / PLC Capstone Focus
+| Project | Description | Demonstrated Skills | Status |
+|---|---|---|---|
+| [Python TCP Port Scanner](https://github.com/Voooges/python-port-scanner) | Checks selected TCP ports on localhost. Includes port validation, connection timeouts, and error handling. Results were compared with Nmap. | Python, sockets, argparse, TCP networking, testing | Initial version completed |
+| [Python Failed Login Analyzer](https://github.com/Voooges/failed-login-analyzer) | Analyzes synthetic SSH logs, counts failed logins by IPv4 address, and flags configurable review thresholds. Verified five test cases. | Python, regular expressions, Counter, log analysis, input validation | Initial version completed |
+| OT Simulation and Monitoring Lab | Built an isolated simulation with a live dashboard for observing simulated process conditions. Exploring network traffic analysis with Wireshark. | System integration, dashboard development, monitoring, technical documentation | In progress |
+| Cybersecurity Research | Authored a literature-based paper examining risk management frameworks, firewalls, and intrusion detection. Presented findings at UDC Research Week. | Literature review, security control analysis, research writing, presentations | Completed |
+| Hack The Box and Virtual Labs | Configured Kali Linux in VirtualBox and completed the Meow lab, practicing service enumeration and identifying insecure Telnet access. | Linux, Nmap, virtualization, authentication security fundamentals | Continuing practice |
 
-| Area | Current Work |
-|---|---|
-| Endpoint limitations | Researching why traditional endpoint agents are difficult to deploy on legacy PLCs |
-| Monitoring approaches | Reviewing passive network monitoring and industrial protocol visibility |
-| Detection requirements | Considering safety, availability, and operational constraints |
-| Testbed planning | Exploring virtual PLC platforms and a proposed prototype environment |
+### Project Documentation
 
-## 🛠️ Skills and Tools
+My completed Python projects include source code, setup instructions, saved test output, and documented limitations. They were developed with guided assistance and tested in local lab environments.
 
-| Area | Languages, Tools, and Experience |
+The OT simulation description covers only general project experience. Confidential capstone objectives, research findings, and implementation details are not published.
+
+## Technical Skills
+
+| Area | Technologies and Experience |
 |---|---|
 | Programming | Python, Java, SQL, JavaScript |
-| Systems and virtual labs | Linux, Kali Linux, VirtualBox |
+| Python project development | Sockets, argparse, regular expressions, Counter, file processing, exception handling |
+| Operating systems and labs | Linux, Kali Linux, VirtualBox |
 | Security tools | Nmap, Wireshark |
 | Databases | MySQL, Microsoft SQL Server |
-| Technical support | Hardware, software, network, and printer troubleshooting |
-| Research and communication | Literature reviews, technical documentation, presentations, GitHub |
+| Technical support | Hardware, software, network connectivity, and printer troubleshooting |
+| Research and documentation | Literature reviews, security control comparisons, technical writing, presentations |
+| Portfolio development | GitHub repositories, Markdown documentation, test evidence |
 
-## 🎓 Education
+## Professional Experience
+
+| Organization | Role | Experience |
+|---|---|---|
+| Gijima | Technical Support | Troubleshot hardware, software, network, and printer issues for end users. Resolved more than 95% of support tickets without escalation. |
+| Revolution IoT | Database Development Intern | Supported database design and legacy system maintenance, collaborated with developers, and resolved user-reported database issues. |
+
+## Education and Recognition
 
 | Detail | Information |
 |---|---|
@@ -41,18 +51,24 @@ I'm building practical experience through Python projects, Hack The Box, virtual
 | Degree | B.S. Cybersecurity |
 | Expected graduation | December 2027 |
 | Cumulative GPA | 4.0 |
-| Academic honors | Dean's List and Highest Honors every semester |
+| Academic honors | Dean’s List and Highest Honors every semester |
 | Special recognition | Top Freshman, Top Sophomore, and Top Junior |
+| Additional education | Software and Web Development qualification; Technical Support qualification |
 
-## 📚 Currently Learning
+## Current Development
 
-- CompTIA Security+ (SY0-701) — exam preparation in progress
-- Python for cybersecurity
-- Penetration testing fundamentals
-- OT / ICS security and detection engineering
-- Industrial protocols, including Modbus/TCP
-- Virtual PLC platforms, including OpenPLC
+| Focus | Learning Goals |
+|---|---|
+| CompTIA Security+ | Preparing for the SY0-701 exam |
+| Python for cybersecurity | Strengthening scripting, log processing, and testing skills |
+| Network security | Practicing enumeration, traffic analysis, and interpretation of network behavior |
+| Security monitoring | Developing an understanding of detection logic and investigation |
+| OT and ICS security | Building knowledge through coursework, research, and isolated simulation |
 
-## 📫 Connect With Me
+## Contact
 
-[LinkedIn](https://www.linkedin.com/in/divanv) · [GitHub Projects](https://github.com/Voooges?tab=repositories)
+I welcome opportunities to contribute to cybersecurity and IT teams while learning from experienced professionals.
+
+- **LinkedIn:** [linkedin.com/in/divanv](https://www.linkedin.com/in/divanv)
+- **GitHub:** [github.com/Voooges](https://github.com/Voooges)
+  
