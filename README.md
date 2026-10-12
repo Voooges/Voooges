@@ -1,3 +1,4 @@
+![Divan Voges cybersecurity portfolio](divan-cybersecurity-banner.gif)
 # Divan Voges
 ### Cybersecurity Student | Python Projects | Network and OT Security
 
