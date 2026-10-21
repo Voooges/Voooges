@@ -11,15 +11,30 @@ My experience combines technical support, database development, academic researc
 
 | Project | Description | Demonstrated Skills | Status |
 |---|---|---|---|
+| [EventWatch — Python SIEM Prototype](https://github.com/Voooges/eventwatch-siem) | Built a local dashboard that imports Windows security events from JSON and XML, stores events in SQLite, and applies five detection rules. Supports alert investigation and JSON report exports. Tested with synthetic scenarios and imported 500 real Windows security events. | Python, SQLite, Windows event logs, detection logic, event correlation, JSON/XML processing, unit testing | Working prototype; ongoing development |
 | [Python TCP Port Scanner](https://github.com/Voooges/python-port-scanner) | Checks selected TCP ports on localhost. Includes port validation, connection timeouts, and error handling. Results were compared with Nmap. | Python, sockets, argparse, TCP networking, testing | Initial version completed |
 | [Python Failed Login Analyzer](https://github.com/Voooges/failed-login-analyzer) | Analyzes synthetic SSH logs, counts failed logins by IPv4 address, and flags configurable review thresholds. Verified five test cases. | Python, regular expressions, Counter, log analysis, input validation | Initial version completed |
 | OT Simulation and Monitoring Lab | Built an isolated simulation with a live dashboard for observing simulated process conditions. Exploring network traffic analysis with Wireshark. | System integration, dashboard development, monitoring, technical documentation | In progress |
 | Cybersecurity Research | Authored a literature-based paper examining risk management frameworks, firewalls, and intrusion detection. Presented findings at UDC Research Week. | Literature review, security control analysis, research writing, presentations | Completed |
 | Hack The Box and Virtual Labs | Configured Kali Linux in VirtualBox and completed the Meow lab, practicing service enumeration and identifying insecure Telnet access. | Linux, Nmap, virtualization, authentication security fundamentals | Continuing practice |
 
+### EventWatch Detection Coverage
+
+EventWatch currently checks for:
+
+- Repeated failed logins within a defined time window.
+- A successful login following repeated failures.
+- User account creation.
+- Members added to the local Administrators group.
+- Windows Security audit log clearance.
+
+The project includes 14 automated tests covering detection behavior, correlation boundaries, XML parsing, input validation, and duplicate handling. It currently analyzes imported logs; live collection is a planned addition.
+
 ### Project Documentation
 
-My completed Python projects include source code, setup instructions, saved test output, and documented limitations. They were developed with guided assistance and tested in local lab environments.
+My Python projects include source code, setup instructions, tests, and documented limitations. They were developed with guided assistance and tested in local lab environments.
+
+Public examples use synthetic data. Real Windows security logs and local databases are excluded from the repositories.
 
 The OT simulation description covers only general project experience. Confidential capstone objectives, research findings, and implementation details are not published.
 
@@ -28,10 +43,12 @@ The OT simulation description covers only general project experience. Confidenti
 | Area | Technologies and Experience |
 |---|---|
 | Programming | Python, Java, SQL, JavaScript |
-| Python project development | Sockets, argparse, regular expressions, Counter, file processing, exception handling |
-| Operating systems and labs | Linux, Kali Linux, VirtualBox |
+| Python project development | Sockets, argparse, regular expressions, Counter, file processing, exception handling, unittest |
+| Security monitoring | Windows security event analysis, rule-based detection, event correlation, alert investigation |
+| Data processing and storage | JSON, XML, SQLite, event normalization, duplicate handling |
+| Operating systems and labs | Windows, Linux, Kali Linux, VirtualBox |
 | Security tools | Nmap, Wireshark |
-| Databases | MySQL, Microsoft SQL Server |
+| Databases | MySQL, Microsoft SQL Server, SQLite |
 | Technical support | Hardware, software, network connectivity, and printer troubleshooting |
 | Research and documentation | Literature reviews, security control comparisons, technical writing, presentations |
 | Portfolio development | GitHub repositories, Markdown documentation, test evidence |
@@ -61,8 +78,8 @@ The OT simulation description covers only general project experience. Confidenti
 |---|---|
 | CompTIA Security+ | Preparing for the SY0-701 exam |
 | Python for cybersecurity | Strengthening scripting, log processing, and testing skills |
+| EventWatch SIEM | Validating detections with controlled Windows lab events, improving investigation features, and exploring live collection |
 | Network security | Practicing enumeration, traffic analysis, and interpretation of network behavior |
-| Security monitoring | Developing an understanding of detection logic and investigation |
 | OT and ICS security | Building knowledge through coursework, research, and isolated simulation |
 
 ## Contact
